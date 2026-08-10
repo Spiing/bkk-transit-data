@@ -1,0 +1,25 @@
+name: Collect Transit Data
+
+on:
+  schedule:
+    - cron: '0,30 6-22 * * *'  # ทุก 30 นาที เวลา 6:00-22:00 UTC — ต้องปรับ timezone (ดูหมายเหตุด้านล่าง)
+  workflow_dispatch:  # กดรันเองได้จาก GitHub UI ด้วย
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install googlemaps pandas
+      - run: python collect.py
+        env:
+          GMAPS_API_KEY: ${{ secrets.GMAPS_API_KEY }}
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add transit_data.csv
+          git commit -m "Add transit data $(date)" || echo "No changes"
+          git push
