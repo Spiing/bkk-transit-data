@@ -1,4 +1,4 @@
-timestamp,day_of_week,hour,origin,destination,duration_min,distance_km,departure,arrival
+timestamp,day_of_week,hour,origin,destination,duration_min,distance_km,departure,arrival,rain_mm,is_raining,temp_c,humidity,weather_desc
 2026-08-10 07:02:16,Monday,7,KMUTT Bangkok,ใต้ทางด่วน กม.9,34.7,3.08,2:02 PM,2:36 PM
 2026-08-10 07:02:16,Monday,7,ใต้ทางด่วน กม.9,KMUTT Bangkok,38.4,3.2,2:02 PM,2:40 PM
 2026-08-10 07:02:16,Monday,7,ใต้ทางด่วน กม.9,Mo Chit BTS Station,59.4,20.48,2:02 PM,3:01 PM
