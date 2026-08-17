@@ -17,6 +17,7 @@ jobs:
       - run: python collect.py
         env:
           GMAPS_API_KEY: ${{ secrets.GMAPS_API_KEY }}
+          OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
       - run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
