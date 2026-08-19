@@ -1455,3 +1455,10 @@ timestamp,day_of_week,hour,origin,destination,duration_min,distance_km,departure
 2026-08-19 11:47:59,Wednesday,11,KMUTT Bangkok,The Mall Life Store BangKae,93.4,19.51,6:55 PM,8:28 PM,0.16,1,29.49,74,light rain
 2026-08-19 11:47:59,Wednesday,11,KMUTT Bangkok,Opposite Bangpakok Market,30.9,3.62,6:47 PM,7:18 PM,0.16,1,29.49,74,light rain
 2026-08-19 11:47:59,Wednesday,11,วัดแค บางปลากด,KMUTT Bangkok,102.3,14.19,6:47 PM,8:30 PM,0.16,1,29.49,74,light rain
+2026-08-19 12:27:32,Wednesday,12,KMUTT Bangkok,ใต้ทางด่วน กม.9,34.7,3.08,7:27 PM,8:02 PM,0,0,29.5,69,overcast clouds
+2026-08-19 12:27:32,Wednesday,12,ใต้ทางด่วน กม.9,KMUTT Bangkok,38.4,3.2,7:27 PM,8:05 PM,0,0,29.5,69,overcast clouds
+2026-08-19 12:27:32,Wednesday,12,ใต้ทางด่วน กม.9,Mo Chit BTS Station,59.4,20.48,7:27 PM,8:26 PM,0,0,29.5,69,overcast clouds
+2026-08-19 12:27:32,Wednesday,12,ใต้ทางด่วน กม.9,Siam Paragon,49.3,13.96,7:27 PM,8:16 PM,0,0,29.5,69,overcast clouds
+2026-08-19 12:27:33,Wednesday,12,KMUTT Bangkok,The Mall Life Store BangKae,93.4,19.51,7:35 PM,9:08 PM,0,0,29.5,69,overcast clouds
+2026-08-19 12:27:33,Wednesday,12,KMUTT Bangkok,Opposite Bangpakok Market,30.9,3.62,7:27 PM,7:58 PM,0,0,29.5,69,overcast clouds
+2026-08-19 12:27:33,Wednesday,12,วัดแค บางปลากด,KMUTT Bangkok,102.3,14.19,7:27 PM,9:09 PM,0,0,29.5,69,overcast clouds
