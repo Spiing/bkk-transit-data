@@ -99,5 +99,27 @@ rows = [log_transit_data(o, d, weather_now) for o, d in routes]
 rows = [r for r in rows if r]
  
 file_exists = os.path.exists(CSV_FILE)
-pd.DataFrame(rows).to_csv(CSV_FILE, mode="a", header=not file_exists, index=False)
-print(f"Logged {len(rows)} rows (rain_mm={weather_now['rain_mm']}, temp={weather_now['temp_c']})")
+
+df = pd.DataFrame(rows)
+
+if file_exists:
+    df.to_csv(
+        CSV_FILE,
+        mode="a",
+        header=False,
+        index=False,
+        encoding="utf-8"
+    )
+else:
+    df.to_csv(
+        CSV_FILE,
+        mode="w",
+        header=True,
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+print(
+    f"Logged {len(rows)} rows "
+    f"(rain_mm={weather_now['rain_mm']}, temp={weather_now['temp_c']})"
+)
