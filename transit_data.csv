@@ -1,0 +1,8 @@
+﻿timestamp,day_of_week,hour,origin,destination,duration_min,distance_km,departure,arrival,rain_mm,is_raining,temp_c,humidity,weather_desc
+2026-10-08 15:19:59,Thursday,15,KMUTT Bangkok,ใต้ทางด่วน กม.9,34.7,3.08,10:19 PM,10:54 PM,0,0,27.61,69,broken clouds
+2026-10-08 15:19:59,Thursday,15,ใต้ทางด่วน กม.9,KMUTT Bangkok,38.4,3.2,10:19 PM,10:58 PM,0,0,27.61,69,broken clouds
+2026-10-08 15:19:59,Thursday,15,ใต้ทางด่วน กม.9,Mo Chit BTS Station,59.4,20.48,10:19 PM,11:19 PM,0,0,27.61,69,broken clouds
+2026-10-08 15:19:59,Thursday,15,ใต้ทางด่วน กม.9,Siam Paragon,46.8,14.26,10:22 PM,11:08 PM,0,0,27.61,69,broken clouds
+2026-10-08 15:20:00,Thursday,15,KMUTT Bangkok,The Mall Life Store BangKae,114.8,18.65,10:20 PM,12:14 AM,0,0,27.61,69,broken clouds
+2026-10-08 15:20:00,Thursday,15,KMUTT Bangkok,Opposite Bangpakok Market,30.9,3.62,10:20 PM,10:50 PM,0,0,27.61,69,broken clouds
+2026-10-08 15:20:00,Thursday,15,วัดแค บางปลากด,KMUTT Bangkok,105.5,15.96,10:20 PM,12:05 AM,0,0,27.61,69,broken clouds
